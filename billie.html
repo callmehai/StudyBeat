@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, 
+        intitial-scale=1.0">
+        <title>Billie's Music</title>
+        <link rel="stylesheet" href="billie.css">      
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap" rel="stylesheet">
+   
+
+        <link rel="icon" href="eduford_img/favIcon.PNG" type="image/png">
+
+        
+    </head>
+    <section class="header">
+        <nav>
+            <div class="text-box">
+                <input onclick="changeText()" type="button" value="Play" id="btn">
+
+                <script>
+                    const audio = new Audio("eduford_img/billie.mp3");
+                    const buttons = document.querySelectorAll("button");
+                    function changeText(){
+                        let element = document.getElementById("btn");
+                        if (element.value=="Play") 
+                            {
+                                element.value = "Pause";
+                                audio.play();
+                            }
+                        else 
+                        {
+                            element.value = "Play";
+                            audio.pause();
+                        }
+                        }
+                </script>
+            </div>
+            <div class="logo">
+                <h1> S  T  U  D  Y  B  E  A  T  S</h1>
+            </div>
+            <div class="nav-link">
+                <ul>
+                    <li><a href="lofi.html">LOFI GIRL |</a></li> 
+                        <li><a href="anime.html">ANIME VIBE |</a></li>
+                        <li><a href="ivy.html">IVY RECORDS |</a></li>
+                        <li><a href="ambient.html">AMBIENT RENDERS |</a></li>
+                        <li><a href="chillhop.html">CHILLHOP MUSIC |</a></li>
+                        <li><a href="chillaf.html">CHILLAF |</a></li> 
+                        <li><a href="jazz.html">THE JAZZ CAFÉ |</a></li> 
+                        <li><a href="bts.html">BTS ALBUM |</a></li> 
+                        <li><a href="billie.html">BILLIE EILISH |</a></li> 
+
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="rain-effect">
+        <img id="control-rain" src="eduford_img/rain.png"  />
+
+        <audio id="rain" width="420" src="eduford_img/rain.mp3" type="audio/mp3"> </audio>
+        <input id="vol-control" type="range" min="0" max="100" step="1" oninput="thisVolume(this.value)" onchange="thisVolume(this.value)"></input>
+        <script>  
+        document.getElementById("control-rain").onclick = function() {
+        var audio = document.getElementById("rain");
+        if (audio.paused) audio.play();
+        else audio.pause();
+        };
+        function thisVolume(volume_value)
+        {
+            var myau = document.getElementById("rain");
+            myau.volume = volume_value / 100;
+            
+        }
+        </script>   
+        </div>
+
+        <div class="ocean-effect">
+        <img id="control-ocean" src="eduford_img/waves.png"  />
+
+        <audio id="ocean" width="420" src="eduford_img/Ocean.mp3" type="audio/mp3"> </audio>
+        <input id="vol-control2" type="range" min="0" max="100" step="1" oninput="thisVolume2(this.value)" onchange="thisVolume2(this.value)"></input>
+        <script>  
+        document.getElementById("control-ocean").onclick = function() {
+        var audio2 = document.getElementById("ocean");
+        if (audio2.paused) audio2.play();
+        else audio2.pause();
+        };
+        function thisVolume2(volume_value)
+        {
+            var myau2 = document.getElementById("ocean");
+            myau2.volume = volume_value / 100;
+            
+        }
+        </script>    
+        </div>
+
+        <div class="noise-effect">
+        <img id="control-noise" src="eduford_img/whiteNoise.png"  />
+
+        <audio id="noise" width="420" src="eduford_img/whiteNoise.mp3" type="audio/mp3"> </audio>
+        <input id="vol-control2" type="range" min="0" max="100" step="1" oninput="thisVolume3(this.value)" onchange="thisVolume3(this.value)"></input>
+        <script>  
+        document.getElementById("control-noise").onclick = function() {
+        var audio3 = document.getElementById("noise");
+        if (audio3.paused) audio3.play();
+        else audio3.pause();
+        };
+        function thisVolume3(volume_value)
+        {
+            var myau3 = document.getElementById("noise");
+            myau3.volume = volume_value / 100;
+            
+        }
+        </script> 
+        </div>
+    <div class="home">
+        <a href="index.html"><img src="eduford_img/home.png" /></a>
+    </div>
+    </section>
+</html>

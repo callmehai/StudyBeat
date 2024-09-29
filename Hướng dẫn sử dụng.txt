@@ -1,0 +1,27 @@
+	**********************************************************************************************************************************************
+	*Đây là một website offline do cá nhân mình viết ra dùng để nghe nhạc. Tất cả đều là offline kể cả nhạc nên không thể đổi nhạc theo ý của bạn*
+	**********************************************************************************************************************************************
+
+HƯỚNG DẪN SỬ DỤNG 1 SỐ CHỨC NĂNG:
+
+Nếu bạn đã tải tất cả các Files, bạn chỉ cần mở File "index.html" để bắt đầu sử dụng.
+Trong trường hợp ra toàn code, hãy chuột phải vào File và chọn mở bằng một trang web bạn hay dùng(Ví dụ: Google, Chrome, Cốc Cốc,...)
+
+Nếu đã tới được giao diện chính của web, bên cạnh việc chọn thể loại nhạc bạn muốn nghe thì còn có một số chức năng thú vị sau:
+
+Nút quay về giao diện chính: Hình ngôi nhà ở góc dưới phải màn hình
+
+Ba âm thanh phụ có thể bật/tắt và chỉnh to nhỏ âm lượng bằng thanh nằm ngang màu xanh ở góc dưới trái.
+Lưu ý: Để bật/tắt âm thanh này bạn cần ấn vào icon của loại âm thanh đó. Lần lượt là tiếng mưa, tiếng sóng biển và tiếng gió.
+
+Dừng/Phát nhạc bằng nút Play/Pause ở giữa màn hình
+Nút Play ở giao diện chính sẽ phát ra tiếng mèo kêu.
+
+Hình ảnh và âm nhạc được lấy trên mạng về theo một số chủ đề mà mình thích. Mong bạn sẽ có trải nghiệm tốt với StudyBeats.
+
+*Vì mỗi bài nhạc dài đến 1h đồng hồ nên StudyBeats khá nặng, mong bạn thông cảm cho mình <3
+
+p/s: Nếu bạn không thích tấm ảnh nào hoặc muốn thay đổi nhạc, rất đơn giản, ở trong thư mục eduford_img, bạn hãy đưa tấm ảnh đó hoặc bản nhạc đó vào
+và ghi đè tên file đó lên 1 tấm ảnh hoặc bản nhạc bạn muốn đổi.
+
+Ví dụ nếu bạn muốn nhạc của phần Anime Vibe, bạn hãy đưa 1 file nhạc khác vào với tên file là onepi.mp3. Sau đó ghi đè lên file onepi.mp3 của mình là được.
